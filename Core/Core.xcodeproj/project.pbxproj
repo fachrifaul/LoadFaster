@@ -23,11 +23,6 @@
 		3D7371ED21F9A15500CC3DCC /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		3D7371EE21F9A15500CC3DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D7371F821F9A25600CC3DCC /* HahaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HahaManager.swift; sourceTree = "<group>"; };
-		3D73727021F9AA4700CC3DCC /* DynamicFive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicFive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D73727221F9AA4700CC3DCC /* DynamicFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D73727421F9AA4700CC3DCC /* DynamicOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D73727621F9AA4700CC3DCC /* DynamicThree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicThree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D73727821F9AA4700CC3DCC /* DynamicTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DynamicTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D73731A21F9AD6300CC3DCC /* StaticFive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticFive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D73731C21F9AD6300CC3DCC /* StaticFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D73731E21F9AD6300CC3DCC /* StaticOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,11 +94,6 @@
 				3D73731E21F9AD6300CC3DCC /* StaticOne.framework */,
 				3D73732021F9AD6300CC3DCC /* StaticThree.framework */,
 				3D73732221F9AD6300CC3DCC /* StaticTwo.framework */,
-				3D73727021F9AA4700CC3DCC /* DynamicFive.framework */,
-				3D73727221F9AA4700CC3DCC /* DynamicFour.framework */,
-				3D73727421F9AA4700CC3DCC /* DynamicOne.framework */,
-				3D73727621F9AA4700CC3DCC /* DynamicThree.framework */,
-				3D73727821F9AA4700CC3DCC /* DynamicTwo.framework */,
 				D1113BDD558BA9745AE148A3 /* Pods_Core.framework */,
 			);
 			name = Frameworks;

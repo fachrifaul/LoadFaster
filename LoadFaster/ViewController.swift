@@ -8,6 +8,7 @@
 
 import UIKit
 import Core
+import Crashlytics
 //import DynamicOne
 //import DynamicTwo
 //import DynamicThree
