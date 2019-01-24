@@ -1,6 +1,6 @@
 # LoadFaster
 
-Here are the pre-main loading times of __5 static/dynamic libraries__ using an Iphone 7Plus.
+Here are the pre-main loading times of __5 static/dynamic libraries__ using an Iphone 7.
 #### Dynamic
 ```
 Total pre-main time: 393.79 milliseconds (100.0%)
