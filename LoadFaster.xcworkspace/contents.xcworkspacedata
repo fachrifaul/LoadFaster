@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Static">
+      <FileRef
+         location = "group:StaticOne/StaticOne.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:StaticTwo/StaticTwo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:StaticThree/StaticThree.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:StaticFour/StaticFour.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:StaticFive/StaticFive.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Dynamic">
+      <FileRef
+         location = "group:DynamicOne/DynamicOne.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:DynamicTwo/DynamicTwo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:DynamicThree/DynamicThree.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:DynamicFour/DynamicFour.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:DynamicFive/DynamicFive.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:LoadFaster.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Core/Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
