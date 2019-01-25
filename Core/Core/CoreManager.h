@@ -19,4 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+#define CoreManagerKit [CoreManager sharedInstance]
+
 NS_ASSUME_NONNULL_END

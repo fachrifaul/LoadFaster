@@ -14,7 +14,6 @@
 		3D7371C721F99C6000CC3DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7371C521F99C6000CC3DCC /* LaunchScreen.storyboard */; };
 		3D7371F621F9A22700CC3DCC /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7371F521F9A22700CC3DCC /* Core.framework */; };
 		3D7371F721F9A22700CC3DCC /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7371F521F9A22700CC3DCC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3D7371FB21F9A31E00CC3DCC /* AppDelegate+Crashlytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7371FA21F9A31E00CC3DCC /* AppDelegate+Crashlytics.swift */; };
 		3D73734621F9DF0800CC3DCC /* CrashManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D73734521F9DF0800CC3DCC /* CrashManager.m */; };
 		3D73734C21F9E5BC00CC3DCC /* HeheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D73734B21F9E5BC00CC3DCC /* HeheManager.swift */; };
 		FB830870ACAE0CA63CB77648 /* Pods_LoadFaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD48D44A6D85C407C3811E7 /* Pods_LoadFaster.framework */; };
@@ -52,7 +51,6 @@
 		3D7371C621F99C6000CC3DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7371C821F99C6000CC3DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D7371F521F9A22700CC3DCC /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D7371FA21F9A31E00CC3DCC /* AppDelegate+Crashlytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Crashlytics.swift"; sourceTree = "<group>"; };
 		3D7371FC21F9A3DE00CC3DCC /* LoadFaster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoadFaster-Bridging-Header.h"; sourceTree = "<group>"; };
 		3D73732E21F9AEF800CC3DCC /* StaticOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D73733121F9AEF800CC3DCC /* StaticTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +112,6 @@
 				3D7371C321F99C6000CC3DCC /* Assets.xcassets */,
 				3D7371C521F99C6000CC3DCC /* LaunchScreen.storyboard */,
 				3D7371C821F99C6000CC3DCC /* Info.plist */,
-				3D7371FA21F9A31E00CC3DCC /* AppDelegate+Crashlytics.swift */,
 				3D7371FC21F9A3DE00CC3DCC /* LoadFaster-Bridging-Header.h */,
 				3D73734421F9DF0800CC3DCC /* CrashManager.h */,
 				3D73734521F9DF0800CC3DCC /* CrashManager.m */,
@@ -259,7 +256,6 @@
 			files = (
 				3D7371BF21F99C5C00CC3DCC /* ViewController.swift in Sources */,
 				3D73734621F9DF0800CC3DCC /* CrashManager.m in Sources */,
-				3D7371FB21F9A31E00CC3DCC /* AppDelegate+Crashlytics.swift in Sources */,
 				3D7371BD21F99C5C00CC3DCC /* AppDelegate.swift in Sources */,
 				3D73734C21F9E5BC00CC3DCC /* HeheManager.swift in Sources */,
 			);

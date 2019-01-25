@@ -22,7 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         HahaManager.shared.haha()
         
-        Crashlytics.sharedInstance().delegate = self
         Fabric.with([Crashlytics.self])
         
         AppDelegate.startCapturingUncaughtExceptions()

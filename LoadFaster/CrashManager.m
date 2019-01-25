@@ -23,6 +23,7 @@
 
 - (void)logError:(NSString *)message {
     NSLog(@"CrashManager name is %@", message);
-    [[CoreManager sharedInstance] logError: message];
+    //[[CoreManager sharedInstance] logError: message];
+    [CoreManagerKit logError:message];
 }
 @end
