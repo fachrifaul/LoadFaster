@@ -3,6 +3,25 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "RealStatic">
+      <FileRef
+         location = "group:RealStaticThree/RealStaticThree.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:RealStaticOne/RealStaticOne.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:RealStaticTwo/RealStaticTwo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:RealStaticFive/RealStaticFive.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:RealStaticFour/RealStaticFour.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "Static">
       <FileRef
          location = "group:StaticOne/StaticOne.xcodeproj">

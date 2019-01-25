@@ -15,11 +15,17 @@ import Crashlytics
 //import DynamicFour
 //import DynamicFive
 
-import StaticOne
-import StaticTwo
-import StaticThree
-import StaticFour
-import StaticFive
+//import StaticOne
+//import StaticTwo
+//import StaticThree
+//import StaticFour
+//import StaticFive
+
+import RealStaticOne
+import RealStaticTwo
+import RealStaticThree
+import RealStaticFour
+import RealStaticFive
 
 class ViewController: UIViewController {
 

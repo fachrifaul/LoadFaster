@@ -8,19 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		197D74071F4E7B91E4A03672 /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1113BDD558BA9745AE148A3 /* Pods_Core.framework */; };
+		3D25728521FAFE57007FE9F0 /* libRealStaticFive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728421FAFE57007FE9F0 /* libRealStaticFive.a */; };
+		3D25728721FAFE57007FE9F0 /* libRealStaticFour.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728621FAFE57007FE9F0 /* libRealStaticFour.a */; };
+		3D25728921FAFE57007FE9F0 /* libRealStaticOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728821FAFE57007FE9F0 /* libRealStaticOne.a */; };
+		3D25728B21FAFE57007FE9F0 /* libRealStaticThree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728A21FAFE57007FE9F0 /* libRealStaticThree.a */; };
+		3D25728D21FAFE57007FE9F0 /* libRealStaticTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728C21FAFE57007FE9F0 /* libRealStaticTwo.a */; };
 		3D7371EF21F9A15500CC3DCC /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7371ED21F9A15500CC3DCC /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D7371F921F9A25600CC3DCC /* HahaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7371F821F9A25600CC3DCC /* HahaManager.swift */; };
-		3D73733D21F9AF4600CC3DCC /* StaticFive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73731A21F9AD6300CC3DCC /* StaticFive.framework */; };
-		3D73733E21F9AF4600CC3DCC /* StaticFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73731C21F9AD6300CC3DCC /* StaticFour.framework */; };
-		3D73733F21F9AF4600CC3DCC /* StaticOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73731E21F9AD6300CC3DCC /* StaticOne.framework */; };
-		3D73734021F9AF4600CC3DCC /* StaticThree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73732021F9AD6300CC3DCC /* StaticThree.framework */; };
-		3D73734121F9AF4600CC3DCC /* StaticTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D73732221F9AD6300CC3DCC /* StaticTwo.framework */; };
 		3D73734F21FAB3E200CC3DCC /* CoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D73734D21FAB3E200CC3DCC /* CoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D73735021FAB3E200CC3DCC /* CoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D73734E21FAB3E200CC3DCC /* CoreManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C5C732DD59FD505FF327178 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
+		3D25728421FAFE57007FE9F0 /* libRealStaticFive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealStaticFive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D25728621FAFE57007FE9F0 /* libRealStaticFour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealStaticFour.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D25728821FAFE57007FE9F0 /* libRealStaticOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealStaticOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D25728A21FAFE57007FE9F0 /* libRealStaticThree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealStaticThree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D25728C21FAFE57007FE9F0 /* libRealStaticTwo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealStaticTwo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7371EA21F9A15500CC3DCC /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7371ED21F9A15500CC3DCC /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		3D7371EE21F9A15500CC3DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D73733D21F9AF4600CC3DCC /* StaticFive.framework in Frameworks */,
-				3D73733E21F9AF4600CC3DCC /* StaticFour.framework in Frameworks */,
-				3D73733F21F9AF4600CC3DCC /* StaticOne.framework in Frameworks */,
-				3D73734021F9AF4600CC3DCC /* StaticThree.framework in Frameworks */,
-				3D73734121F9AF4600CC3DCC /* StaticTwo.framework in Frameworks */,
+				3D25728521FAFE57007FE9F0 /* libRealStaticFive.a in Frameworks */,
+				3D25728721FAFE57007FE9F0 /* libRealStaticFour.a in Frameworks */,
+				3D25728921FAFE57007FE9F0 /* libRealStaticOne.a in Frameworks */,
+				3D25728B21FAFE57007FE9F0 /* libRealStaticThree.a in Frameworks */,
+				3D25728D21FAFE57007FE9F0 /* libRealStaticTwo.a in Frameworks */,
 				197D74071F4E7B91E4A03672 /* Pods_Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +100,11 @@
 		C49EC196CE85623CAD284213 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D25728421FAFE57007FE9F0 /* libRealStaticFive.a */,
+				3D25728621FAFE57007FE9F0 /* libRealStaticFour.a */,
+				3D25728821FAFE57007FE9F0 /* libRealStaticOne.a */,
+				3D25728A21FAFE57007FE9F0 /* libRealStaticThree.a */,
+				3D25728C21FAFE57007FE9F0 /* libRealStaticTwo.a */,
 				3D73731A21F9AD6300CC3DCC /* StaticFive.framework */,
 				3D73731C21F9AD6300CC3DCC /* StaticFour.framework */,
 				3D73731E21F9AD6300CC3DCC /* StaticOne.framework */,
