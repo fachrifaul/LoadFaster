@@ -7,11 +7,20 @@
 //
 
 import Foundation
+import Crashlytics
 
 public class HahaManager {
     public static let shared: HahaManager = HahaManager()
     
     public func haha() {
         print("HahaManager haha")
+    }
+    
+    @objc public func logCrashlytics(error: Error) {
+        Crashlytics.sharedInstance().recordError(error)
+    }
+    
+    @objc public func logError(text: String) {
+        print("logError \(text)")
     }
 }
