@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (CrashManager *)sharedInstance;
 
-- (void)trackerSendScreenClassName:(NSString *)message;
+- (void)logError:(NSString *)message;
 @end
 
 NS_ASSUME_NONNULL_END

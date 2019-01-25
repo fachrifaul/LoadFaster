@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         DummyFour.shared.haha()
         DummyFive.shared.haha()
         
-        CrashManager.sharedInstance().trackerSendScreenClassName("Haha")
+        CrashManager.sharedInstance().logError("Haha")
     }
 
 

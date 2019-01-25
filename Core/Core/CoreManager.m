@@ -20,9 +20,13 @@
     return _sharedInstance;
 }
 
-- (void)trackerSendScreenClassName:(NSString *)message {
+- (void)logError:(NSString *)message {
     NSLog(@"CoreManager name is %@", message);
-
     CLS_LOG(@"%@", message);
 }
+
+- (void)recordError:(NSError *)error {
+    [CrashlyticsKit recordError:error];
+}
+
 @end

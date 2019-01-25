@@ -21,8 +21,8 @@
     return _sharedInstance;
 }
 
-- (void)trackerSendScreenClassName:(NSString *)message {
+- (void)logError:(NSString *)message {
     NSLog(@"CrashManager name is %@", message);
-    [[CoreManager sharedInstance] trackerSendScreenClassName: message];
+    [[CoreManager sharedInstance] logError: message];
 }
 @end
