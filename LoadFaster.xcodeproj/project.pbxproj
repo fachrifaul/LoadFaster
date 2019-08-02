@@ -16,7 +16,6 @@
 		3D7371F721F9A22700CC3DCC /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7371F521F9A22700CC3DCC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D73734621F9DF0800CC3DCC /* CrashManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D73734521F9DF0800CC3DCC /* CrashManager.m */; };
 		3D73734C21F9E5BC00CC3DCC /* HeheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D73734B21F9E5BC00CC3DCC /* HeheManager.swift */; };
-		FB830870ACAE0CA63CB77648 /* Pods_LoadFaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD48D44A6D85C407C3811E7 /* Pods_LoadFaster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,9 +54,6 @@
 		3D73734421F9DF0800CC3DCC /* CrashManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashManager.h; sourceTree = "<group>"; };
 		3D73734521F9DF0800CC3DCC /* CrashManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashManager.m; sourceTree = "<group>"; };
 		3D73734B21F9E5BC00CC3DCC /* HeheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeheManager.swift; sourceTree = "<group>"; };
-		6C6362336DD3DE0578447F58 /* Pods-LoadFaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadFaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadFaster/Pods-LoadFaster.release.xcconfig"; sourceTree = "<group>"; };
-		B58B54CC536072DC653266B5 /* Pods-LoadFaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadFaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoadFaster/Pods-LoadFaster.debug.xcconfig"; sourceTree = "<group>"; };
-		DCD48D44A6D85C407C3811E7 /* Pods_LoadFaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadFaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB830870ACAE0CA63CB77648 /* Pods_LoadFaster.framework in Frameworks */,
 				3D7371F621F9A22700CC3DCC /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +74,6 @@
 				3D7371F521F9A22700CC3DCC /* Core.framework */,
 				3D7371BB21F99C5C00CC3DCC /* LoadFaster */,
 				3D7371BA21F99C5C00CC3DCC /* Products */,
-				86ED54AF2DA4A16C0135737B /* Pods */,
 				61F9581CC2BBCC829FC24A19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -112,18 +106,8 @@
 		61F9581CC2BBCC829FC24A19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCD48D44A6D85C407C3811E7 /* Pods_LoadFaster.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		86ED54AF2DA4A16C0135737B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B58B54CC536072DC653266B5 /* Pods-LoadFaster.debug.xcconfig */,
-				6C6362336DD3DE0578447F58 /* Pods-LoadFaster.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,13 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D7371CB21F99C6000CC3DCC /* Build configuration list for PBXNativeTarget "LoadFaster" */;
 			buildPhases = (
-				3FE82BAC17EA6B52F8143259 /* [CP] Check Pods Manifest.lock */,
 				3D7371B521F99C5C00CC3DCC /* Sources */,
 				3D7371B621F99C5C00CC3DCC /* Frameworks */,
 				3D7371B721F99C5C00CC3DCC /* Resources */,
 				3D7371DF21F9A13B00CC3DCC /* Embed Frameworks */,
 				3D73734221F9D93C00CC3DCC /* CopyFiles */,
-				3D73734321F9D94000CC3DCC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -162,6 +144,7 @@
 				TargetAttributes = {
 					3D7371B821F99C5C00CC3DCC = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -195,49 +178,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3D73734321F9D94000CC3DCC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" a13822f0f8f3d809f89420f714cfba9aa27b400d 6fa181151324359c356aa743e038c6ed3cec35aa4cc664b89b318a2cf78d1d23\n";
-		};
-		3FE82BAC17EA6B52F8143259 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoadFaster-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D7371B521F99C5C00CC3DCC /* Sources */ = {
@@ -391,7 +331,6 @@
 		};
 		3D7371CC21F99C6000CC3DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B58B54CC536072DC653266B5 /* Pods-LoadFaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -405,14 +344,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fachrifaul.LoadFaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LoadFaster/LoadFaster-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		3D7371CD21F99C6000CC3DCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C6362336DD3DE0578447F58 /* Pods-LoadFaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -426,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fachrifaul.LoadFaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LoadFaster/LoadFaster-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

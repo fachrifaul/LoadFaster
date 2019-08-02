@@ -8,8 +8,6 @@
 
 import UIKit
 import Core
-import Crashlytics
-import Fabric
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,8 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         HahaManager.shared.haha()
-        
-        Fabric.with([Crashlytics.self])
         
         AppDelegate.startCapturingUncaughtExceptions()
         return true

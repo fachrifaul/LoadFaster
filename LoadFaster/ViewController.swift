@@ -8,24 +8,23 @@
 
 import UIKit
 import Core
-import Crashlytics
 //import DynamicOne
 //import DynamicTwo
 //import DynamicThree
 //import DynamicFour
 //import DynamicFive
 
-//import StaticOne
-//import StaticTwo
-//import StaticThree
-//import StaticFour
-//import StaticFive
+import StaticOne
+import StaticTwo
+import StaticThree
+import StaticFour
+import StaticFive
 
-import RealStaticOne
-import RealStaticTwo
-import RealStaticThree
-import RealStaticFour
-import RealStaticFive
+//import RealStaticOne
+//import RealStaticTwo
+//import RealStaticThree
+//import RealStaticFour
+//import RealStaticFive
 
 class ViewController: UIViewController {
 
@@ -37,8 +36,6 @@ class ViewController: UIViewController {
         DummyThree.shared.haha()
         DummyFour.shared.haha()
         DummyFive.shared.haha()
-        
-        CrashManager.sharedInstance().logError("Haha")
     }
 
 

@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		197D74071F4E7B91E4A03672 /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1113BDD558BA9745AE148A3 /* Pods_Core.framework */; };
-		3D25728521FAFE57007FE9F0 /* libRealStaticFive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728421FAFE57007FE9F0 /* libRealStaticFive.a */; };
-		3D25728721FAFE57007FE9F0 /* libRealStaticFour.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728621FAFE57007FE9F0 /* libRealStaticFour.a */; };
-		3D25728921FAFE57007FE9F0 /* libRealStaticOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728821FAFE57007FE9F0 /* libRealStaticOne.a */; };
-		3D25728B21FAFE57007FE9F0 /* libRealStaticThree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728A21FAFE57007FE9F0 /* libRealStaticThree.a */; };
-		3D25728D21FAFE57007FE9F0 /* libRealStaticTwo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D25728C21FAFE57007FE9F0 /* libRealStaticTwo.a */; };
 		3D7371EF21F9A15500CC3DCC /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7371ED21F9A15500CC3DCC /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D7371F921F9A25600CC3DCC /* HahaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7371F821F9A25600CC3DCC /* HahaManager.swift */; };
 		3D73734F21FAB3E200CC3DCC /* CoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D73734D21FAB3E200CC3DCC /* CoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D73735021FAB3E200CC3DCC /* CoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D73734E21FAB3E200CC3DCC /* CoreManager.m */; };
+		A29D5F5222F473B900EA9363 /* StaticFive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29D5F5122F473B900EA9363 /* StaticFive.framework */; };
+		A29D5F5422F473B900EA9363 /* StaticFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29D5F5322F473B900EA9363 /* StaticFour.framework */; };
+		A29D5F5622F473B900EA9363 /* StaticOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29D5F5522F473B900EA9363 /* StaticOne.framework */; };
+		A29D5F5822F473B900EA9363 /* StaticThree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29D5F5722F473B900EA9363 /* StaticThree.framework */; };
+		A29D5F5A22F473B900EA9363 /* StaticTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29D5F5922F473B900EA9363 /* StaticTwo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C5C732DD59FD505FF327178 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 		3D25728421FAFE57007FE9F0 /* libRealStaticFive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealStaticFive.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D25728621FAFE57007FE9F0 /* libRealStaticFour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealStaticFour.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D25728821FAFE57007FE9F0 /* libRealStaticOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRealStaticOne.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,7 +35,11 @@
 		3D73732221F9AD6300CC3DCC /* StaticTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D73734D21FAB3E200CC3DCC /* CoreManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreManager.h; sourceTree = "<group>"; };
 		3D73734E21FAB3E200CC3DCC /* CoreManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreManager.m; sourceTree = "<group>"; };
-		AB655FF54BEC2C5915610BAD /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
+		A29D5F5122F473B900EA9363 /* StaticFive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticFive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29D5F5322F473B900EA9363 /* StaticFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29D5F5522F473B900EA9363 /* StaticOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29D5F5722F473B900EA9363 /* StaticThree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticThree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29D5F5922F473B900EA9363 /* StaticTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StaticTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1113BDD558BA9745AE148A3 /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,12 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D25728521FAFE57007FE9F0 /* libRealStaticFive.a in Frameworks */,
-				3D25728721FAFE57007FE9F0 /* libRealStaticFour.a in Frameworks */,
-				3D25728921FAFE57007FE9F0 /* libRealStaticOne.a in Frameworks */,
-				3D25728B21FAFE57007FE9F0 /* libRealStaticThree.a in Frameworks */,
-				3D25728D21FAFE57007FE9F0 /* libRealStaticTwo.a in Frameworks */,
-				197D74071F4E7B91E4A03672 /* Pods_Core.framework in Frameworks */,
+				A29D5F5222F473B900EA9363 /* StaticFive.framework in Frameworks */,
+				A29D5F5422F473B900EA9363 /* StaticFour.framework in Frameworks */,
+				A29D5F5622F473B900EA9363 /* StaticOne.framework in Frameworks */,
+				A29D5F5822F473B900EA9363 /* StaticThree.framework in Frameworks */,
+				A29D5F5A22F473B900EA9363 /* StaticTwo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +64,6 @@
 			children = (
 				3D7371EC21F9A15500CC3DCC /* Core */,
 				3D7371EB21F9A15500CC3DCC /* Products */,
-				5C2ABA92C986E61591EE0AAB /* Pods */,
 				C49EC196CE85623CAD284213 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -88,18 +88,14 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		5C2ABA92C986E61591EE0AAB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB655FF54BEC2C5915610BAD /* Pods-Core.debug.xcconfig */,
-				2C5C732DD59FD505FF327178 /* Pods-Core.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		C49EC196CE85623CAD284213 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A29D5F5122F473B900EA9363 /* StaticFive.framework */,
+				A29D5F5322F473B900EA9363 /* StaticFour.framework */,
+				A29D5F5522F473B900EA9363 /* StaticOne.framework */,
+				A29D5F5722F473B900EA9363 /* StaticThree.framework */,
+				A29D5F5922F473B900EA9363 /* StaticTwo.framework */,
 				3D25728421FAFE57007FE9F0 /* libRealStaticFive.a */,
 				3D25728621FAFE57007FE9F0 /* libRealStaticFour.a */,
 				3D25728821FAFE57007FE9F0 /* libRealStaticOne.a */,
@@ -134,7 +130,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D7371F221F9A15500CC3DCC /* Build configuration list for PBXNativeTarget "Core" */;
 			buildPhases = (
-				7E804D60B8B4130C194C9E0D /* [CP] Check Pods Manifest.lock */,
 				3D7371E521F9A15500CC3DCC /* Headers */,
 				3D7371E621F9A15500CC3DCC /* Sources */,
 				3D7371E721F9A15500CC3DCC /* Frameworks */,
@@ -160,7 +155,7 @@
 				TargetAttributes = {
 					3D7371E921F9A15500CC3DCC = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -170,6 +165,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3D7371E021F9A15500CC3DCC;
 			productRefGroup = 3D7371EB21F9A15500CC3DCC /* Products */;
@@ -190,31 +186,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7E804D60B8B4130C194C9E0D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Core-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D7371E621F9A15500CC3DCC /* Sources */ = {
@@ -353,7 +324,6 @@
 		};
 		3D7371F321F9A15500CC3DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB655FF54BEC2C5915610BAD /* Pods-Core.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -374,14 +344,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		3D7371F421F9A15500CC3DCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C5C732DD59FD505FF327178 /* Pods-Core.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -401,7 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fachrifaul.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

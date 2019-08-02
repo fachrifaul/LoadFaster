@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:LoadFaster.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Core/Core.xcodeproj">
+   </FileRef>
    <Group
       location = "container:"
-      name = "RealStatic">
+      name = "Dynamic">
       <FileRef
-         location = "group:RealStaticThree/RealStaticThree.xcodeproj">
+         location = "group:DynamicFour/DynamicFour.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:RealStaticOne/RealStaticOne.xcodeproj">
+         location = "group:DynamicOne/DynamicOne.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:RealStaticTwo/RealStaticTwo.xcodeproj">
+         location = "group:DynamicThree/DynamicThree.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:RealStaticFive/RealStaticFive.xcodeproj">
+         location = "group:DynamicTwo/DynamicTwo.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:RealStaticFour/RealStaticFour.xcodeproj">
+         location = "group:DynamicFive/DynamicFive.xcodeproj">
       </FileRef>
    </Group>
    <Group
       location = "container:"
       name = "Static">
-      <FileRef
-         location = "group:StaticOne/StaticOne.xcodeproj">
-      </FileRef>
       <FileRef
          location = "group:StaticTwo/StaticTwo.xcodeproj">
       </FileRef>
@@ -33,38 +36,32 @@
          location = "group:StaticThree/StaticThree.xcodeproj">
       </FileRef>
       <FileRef
+         location = "group:StaticFive/StaticFive.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:StaticFour/StaticFour.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:StaticFive/StaticFive.xcodeproj">
+         location = "group:StaticOne/StaticOne.xcodeproj">
       </FileRef>
    </Group>
    <Group
       location = "container:"
-      name = "Dynamic">
+      name = "RealStatic">
       <FileRef
-         location = "group:DynamicOne/DynamicOne.xcodeproj">
+         location = "group:RealStaticTwo/RealStaticTwo.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:DynamicTwo/DynamicTwo.xcodeproj">
+         location = "group:RealStaticFour/RealStaticFour.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:DynamicThree/DynamicThree.xcodeproj">
+         location = "group:RealStaticThree/RealStaticThree.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:DynamicFour/DynamicFour.xcodeproj">
+         location = "group:RealStaticFive/RealStaticFive.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:DynamicFive/DynamicFive.xcodeproj">
+         location = "group:RealStaticOne/RealStaticOne.xcodeproj">
       </FileRef>
    </Group>
-   <FileRef
-      location = "group:LoadFaster.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Core/Core.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
 </Workspace>

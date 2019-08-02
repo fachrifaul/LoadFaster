@@ -7,7 +7,6 @@
 //
 
 #import "CoreManager.h"
-#import <Crashlytics/Crashlytics.h>
 
 @implementation CoreManager
 
@@ -22,11 +21,11 @@
 
 - (void)logError:(NSString *)message {
     NSLog(@"CoreManager name is %@", message);
-    CLS_LOG(@"%@", message);
+
 }
 
 - (void)recordError:(NSError *)error {
-    [CrashlyticsKit recordError:error];
+
 }
 
 @end
